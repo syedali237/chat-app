@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Chat App</h1>
+        <div class="name">
+            <span><i class="far fa-user"></i></span>
+            <input
+              type="text"
+              id="name-input"
+              class="name-input"
+              value="anonymous"
+              maxlength="20"
+            />
+          </div>
+        <div class="chat-area">
+            <div class="message received">Hello there!</div>
+            <div class="message received">How are you?</div>
+            <div class="message sent">Hi! I'm good, thank you.</div>
+        </div>
+       
+        <div class="input-container">
+            <form class="message-form" id="message-form">
+                <input
+                  type="text"
+                  name="message"
+                  id="message-input"
+                  class="message-input"
+                />
+                <button type="submit">
+                  <span><i class="fas fa-paper-plane"></i></span>
+                </button>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
